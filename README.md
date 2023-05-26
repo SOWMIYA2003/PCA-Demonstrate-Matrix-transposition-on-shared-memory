@@ -4,7 +4,9 @@ Comparing the Performance of the Rectangular Shared Memory Kernels with  grid (1
 To demonstrate the Matrix transposition on shared memory with grid (1,1) block (16,16).
 ## Procedure:
 ### Step 1 : 
+Include the required files and library.
 ### Step 2 :
+Define the block size to be 16 .
 ### Step 3 : 
 ### Step 4 : 
 ### Step 5 :
@@ -24,7 +26,7 @@ REGISTER NO : 212221230106
  * optimizing using memory padding.
  */
 
-#define BDIMX 32
+#define BDIMX 16
 #define BDIMY 16
 #define IPAD  2
 
@@ -318,7 +320,7 @@ root@MidPC:/home/student/Desktop# nvprof ./a.out
                     0.00%  2.1600us         3     720ns     180ns  1.7500us  cuDeviceGetCount
                     0.00%     750ns         2     375ns     170ns     580ns  cuDeviceGet
                     0.00%     240ns         1     240ns     240ns     240ns  cuDeviceGetUuid
-root@MidPC:/home/student/Desktop#
+root@MidPC:/home/student/Desktop# 106
 ```
 ![WhatsApp Image 2023-05-26 at 1 57 16 PM](https://github.com/SOWMIYA2003/PCA-Demonstrate-Matrix-transposition-on-shared-memory/assets/93427443/46faeef8-e540-46e9-b692-ee141e53f3f8)
 ## Result:
