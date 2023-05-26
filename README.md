@@ -1,8 +1,13 @@
 # PCA-Demonstrate-Matrix-transposition-on-shared-memory
 Comparing the Performance of the Rectangular Shared Memory Kernels with  grid (1,1) block (16,16)
 ## Aim:
-
+To demonstrate the Matrix transposition on shared memory with grid (1,1) block (16,16).
 ## Procedure:
+### Step 1 : 
+### Step 2 :
+### Step 3 : 
+### Step 4 : 
+### Step 5 :
 ## Program
 ```
 DEVELOPED BY : SOWMIYA N
@@ -280,3 +285,4 @@ int main(int argc, char **argv)
 ## Output:
 
 ## Result:
+The Matrix transposition on shared memory with grid (1,1) block (16,16) is demonstrated successfully.
