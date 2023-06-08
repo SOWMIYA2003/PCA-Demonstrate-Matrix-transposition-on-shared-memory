@@ -24,13 +24,6 @@ REGISTER NO : 212221230106
 #include <cuda_runtime.h>
 #include <stdio.h>
 
-/*
- * An example of using shared memory to transpose rectangular thread coordinates
- * of a CUDA grid into a global memory array. Different kernels below
- * demonstrate performing reads and writes with different ordering, as well as
- * optimizing using memory padding.
- */
-
 #define BDIMX 16
 #define BDIMY 16
 #define IPAD  2
